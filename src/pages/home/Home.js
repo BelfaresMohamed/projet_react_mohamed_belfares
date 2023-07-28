@@ -72,11 +72,11 @@ export const Home = () => {
         </div>
         <div className="d-lg-flex justify-content-center gap-lg-5 pt-lg-2">
           <div className="div-child">
-            <img
+          <img
               className="img-tabs"
               width="250px"
               height="250px"
-              src="./public/img/menu/menu-item-1.png"
+              src={img3}
               alt=""
             />
             <p className=" tit text-center mt-1 mt-md-2 mt-lg-1">
@@ -113,11 +113,11 @@ export const Home = () => {
         {/*  */}
         <div className="d-lg-flex justify-content-center gap-lg-5 pt-lg-2">
           <div className="div-child">
-            <img
+          <img
               className="img-tabs"
               width="250px"
               height="250px"
-              src="./public/img/menu/menu-item-4.png"
+              src={img3}
               alt=""
             />
             <p className=" tit text-center mt-1 mt-md-2 mt-lg-1">
@@ -126,11 +126,11 @@ export const Home = () => {
             <p className=" pre text-center fw-bolder">$12.95</p>
           </div>
           <div className="div-child">
-            <img
+          <img
               className="img-tabs"
               width="250px"
               height="250px"
-              src="./public/img/menu/menu-item-5.png"
+              src={img3}
               alt=""
             />
             <p className=" tit text-center mt-1 mt-md-2 mt-lg-1">
@@ -139,11 +139,11 @@ export const Home = () => {
             <p className=" pre text-center fw-bolder">$12.95</p>
           </div>
           <div className="div-child">
-            <img
+          <img
               className="img-tabs"
               width="250px"
               height="250px"
-              src="./public/img/menu/menu-item-6.png"
+              src={img3}
               alt=""
             />
             <p className=" tit text-center mt-1 mt-md-2 mt-lg-1">

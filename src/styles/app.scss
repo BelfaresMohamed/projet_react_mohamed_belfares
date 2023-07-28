@@ -1,0 +1,425 @@
+@import "./variables";
+@import "./fonts";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./modules/allModules";
+
+// ***********************************
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+.moses {
+    color: #000000;
+    text-decoration: none;
+    border: none;
+}
+
+.nav-link {
+    color: #333333b1;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #8a0a1f;
+    text-decoration: none;
+}
+
+.ico,
+.bord {
+    color: #3333333a;
+}
+
+
+// **********************Header*********************
+
+#header-home {
+    display: flex;
+
+}
+
+#header-home nav .page li {
+    text-align: center;
+    list-style: none;
+    font-size: 14px;
+    color: #272829;
+}
+
+#header-home nav .page {
+    margin-right: 80px;
+}
+
+#header-home nav .profile h1 {
+
+    height: 100%;
+    font-weight: bolder;
+}
+
+#header-home nav {
+    padding: 0 3%;
+    color: #fff;
+    height: 250px;
+    background-color: #272829;
+}
+
+.bord {
+    margin-top: 2px;
+    width: 5px;
+    height: 25px;
+    border-left: 1px solid #9e9a9a;
+    margin-inline: 10px;
+}
+
+.sosio {
+    font-size: 20px;
+}
+
+.text-head {
+    position: relative;
+
+}
+
+#header-home .imag-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.271);
+    height: 500px;
+    width: 100%;
+}
+
+.text-img {
+    text-align: center;
+    max-width: 500px;
+    color: #fff;
+}
+
+.text-img h1 {
+    font-size: 40px;
+    background-color: transparent;
+    font-weight: bolder;
+    border-bottom: 5px solid #fff;
+}
+
+.text-img h3 {
+    font-size: 12px;
+    border: 5px solid #fff;
+}
+
+// ************************** Section ONE **************************
+.home {
+    padding: 60px 18%;
+    width: 100%;
+    height: 500px;
+}
+
+.home .card-home img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.home .card-home button {
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+
+.home .card-home img:hover {
+    scale: (1.1);
+    transition: 0.8s;
+}
+
+// ************************TAPS*********************
+.men.dark {
+    color: white;
+    background-color: #201f24;
+}
+
+.men h6 {
+    font-family: moses-three;
+    color: #7b6a6a;
+}
+
+.men h2 {
+    margin-bottom: -45px;
+    font-family: moses;
+    font-size: 50px;
+    color: #333;
+}
+
+.str p {
+    margin-top: 10px;
+    color: #333;
+}
+
+.str h3 {
+    color: #333;
+    font-family: moses-two;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.div-child .tit {
+    font-size: 18px;
+    color: #333;
+}
+
+.div-child .info {
+    font-size: 15px;
+    color: #999696ee;
+    margin-top: -15px;
+}
+
+.div-child .pre {
+    color: #333;
+    margin-top: -15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.li-section5 {
+    border-bottom: 3px solid #c6c3c3;
+    height: 30px;
+    width: auto;
+    transition: 0.6s;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.li-section5:hover {
+    border-bottom: 3px solid #333;
+}
+
+.li-section5.ac,
+.li-section5:hover {
+    color: #333;
+    border-bottom: 3px solid #000000;
+}
+
+.div-mother {
+    p {
+        margin-top: -20px;
+    }
+}
+
+
+// *****************section-img******************
+.sec-img {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+.sec-img .hamham {
+    width: 100%;
+    height: 100%;
+}
+
+.sec-img .hamham {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/about.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 30%;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.271);
+    height: 400px;
+    width: 100%;
+}
+
+.hamham .text-imges {
+    text-align: center;
+    display: flex;
+}
+
+.hamham .text-imges div {
+    margin-top: 150px;
+    color: #fff;
+}
+
+.hamham .text-imges div p {
+    color: #cfc6c6;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hamham .text-imges div h1 {
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+// *****************footer*******************
+footer {
+    margin-top: 300px;
+    width: 100%;
+    height: 400px;
+    background-color: #f1eded;
+}
+
+footer .lob {
+
+    gap: 300px;
+    justify-content: center;
+}
+
+footer .lob h6 {
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer .lob p {
+    line-height: 15px;
+    font-size: 12px;
+    color: #333;
+}
+
+footer .lop .one {
+    line-height: 20px;
+}
+
+.copy {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.copy p {
+    margin-top: 15px;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copy .in {
+    margin-inline: 1px;
+}
+
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ About ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.header-about .imag-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/images/alp-allen-altiner-fnq6jGu0pXE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+    background-position-x: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.271);
+    height: 500px;
+    width: 100%;
+}
+
+.header-about h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.section-about {
+    margin-bottom: -235px;
+}
+
+.section-about img {
+    object-fit: cover;
+    width: 350px;
+    height: 500px;
+
+}
+
+.section-about .text-about .bor {
+    margin-left: 15px;
+    border-left: 2px solid #3333333d;
+}
+
+.section-about .text-about h1 {
+    font-size: 19px;
+    margin-top: 25px;
+    margin-left: 8px;
+    background-color: transparent;
+}
+
+.section-about .text-about p {
+    color: #00000091;
+    margin-left: 10px;
+    width: 500px;
+    font-size: 13px;
+}
+
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Contact^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.sec-map.dark {
+    color: white;
+    background-color: #201f24;
+}
+
+.sec-map {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -265px;
+    width: 100%;
+    height: 500px;
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+// ---------
+#contact.dark {
+    color: white;
+    background-color: #201f24;
+}
+
+/* form */
+form {
+    margin-top: 60px;
+}
+
+form h2 {
+    font-size: 20px;
+    color: #333333cd;
+    text-align: start;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+
+.input {
+    border-style: none;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.169);
+    width: 400px;
+    font-size: 13px;
+    color: #193753;
+}
+
+.submit {
+    border-style: none;
+    background-color: #333;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.sab {
+    text-align: start;
+}
